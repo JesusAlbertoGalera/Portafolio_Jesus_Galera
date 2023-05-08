@@ -1,0 +1,333 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #247A6B;
+}
+
+body .MenuPrincipal {
+    background: #1d1d1d;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 144px;
+}
+
+body .MenuPrincipal .logo {
+    border-radius: 5px;
+    height: 62px;
+    width: 150px;
+}
+
+body .MenuPrincipal .logo img {
+    vertical-align: top;
+    width: 100px;
+}
+
+body .MenuPrincipal .MenuItems {
+    align-items: center;
+    display: flex;
+}
+
+body .MenuPrincipal .MenuItems .Items {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 54px 0 0;
+    width: 250px;
+}
+
+body .MenuPrincipal .MenuItems .Items p {
+    color: #ffffff;
+}
+
+body .MenuPrincipal .MenuItems .Boton {
+    background: #118596;
+    border: 0;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 16px 32px;
+}
+
+body .MenuPrincipal > img .menuHamburguer{
+    display: none;
+}
+
+body .Texto > h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 70px 10px;
+    color: #ffffff;
+}
+
+body .Aplications {
+padding: 150px 120px;
+gap: 50px 0;
+}
+
+body .Aplications .Twitter{
+    display: flex;
+    padding: 12px 0;
+    gap: 12px 80px;
+}
+
+body .Aplications .Twitter > img {
+    width: 80px;
+}
+
+body .Aplications .Twitter > h1 {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+body .Aplications .Instagram{
+    display: flex;
+    padding: 12px 0;
+    gap: 12px 80px;
+}
+
+body .Aplications .Instagram > img {
+    width: 80px;
+}
+
+body .Aplications .Instagram > h1 {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+body .Aplications .Email{
+    display: flex;
+    padding: 12px 0;
+    gap: 12px 80px;
+}
+
+body .Aplications .Email > img {
+    width: 80px;
+}
+
+body .Aplications .Email > h1 {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+body .Aplications .Behance{
+    display: flex;
+    padding: 12px 0;
+    gap: 12px 80px;
+}
+
+body .Aplications .Behance > img {
+    width: 80px;
+}
+
+body .Aplications .Behance > h1 {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+body .Aplications .Behance{
+    display: flex;
+    padding: 12px 0;
+    gap: 12px 80px;
+}
+
+body .Aplications .Behance > img {
+    width: 80px;
+}
+
+body .Aplications .Behance > h1 {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+body .Aplications .Contacto{
+    display: flex;
+    padding: 12px 0;
+    gap: 12px 80px;
+}
+
+body .Aplications .Contacto > img {
+    width: 80px;
+}
+
+body .Aplications .Contacto > h1 {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 1440px) {  
+    body .MenuPrincipal {
+        padding: 21px 48px;
+        box-sizing: border-box;
+    }
+    body .MenuPrincipal .MenuItems >img {
+        display: unset;
+    }
+    
+    body .MenuPrincipal .MenuItems > img {
+        display: none;
+    }
+  
+    body .Texto {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    body .Texto > h1{
+        font-size: 30px;
+    }
+    
+    
+
+}
+
+@media only screen and (max-width: 830px) {
+    body .MenuPrincipal {
+        padding: 21px 56px;
+        box-sizing: border-box;
+    }
+
+    body .MenuPrincipal .MenuItems >img {
+        display: unset;
+    }
+
+    body .MenuPrincipal .MenuItems .Items {
+        display: none;
+    }
+
+    body .MenuPrincipal .MenuItems .Boton {
+        display: none;
+    }
+
+    body .Texto {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    body .Texto > h1{
+        font-size: 20px;
+    }
+    
+    body .Aplications {
+        padding: 10px 12px;
+    }
+
+    body .Aplications .Twitter > img{
+        width: 50px;
+    }
+    
+    body .Aplications .Twitter > h1{
+        font-size: 20px;
+    }
+
+    body .Aplications .Instagram > img{
+        width: 50px;
+    }
+    
+    body .Aplications .Instagram > h1{
+        font-size: 20px;
+    }
+
+    body .Aplications .Email > img{
+        width: 50px;
+    }
+    
+    body .Aplications .Email > h1{
+        font-size: 20px;
+    }
+
+    body .Aplications .Behance > img{
+        width: 50px;
+    }
+    
+    body .Aplications .Behance > h1{
+        font-size: 20px;
+    }
+
+    body .Aplications .Contacto > img{
+        width: 50px;
+    }
+    
+    body .Aplications .Contacto > h1{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    body .MenuPrincipal {
+        padding: 21px 56px;
+        box-sizing: border-box;
+    }
+
+    body .MenuPrincipal .MenuItems >img {
+        display: unset;
+    }
+
+    body .MenuPrincipal .MenuItems .Items {
+        display: none;
+    }
+
+    body .MenuPrincipal .MenuItems .Boton {
+        display: none;
+    }
+
+    
+    body .Texto {
+        padding: 5px 0;
+        text-align: center;
+    }
+
+    body .Texto > h1{
+        font-size: 20px;
+    }
+    
+    body .Aplications {
+        padding: 10px 12px;
+    }
+
+    body .Aplications .Twitter > img{
+        width: 30px;
+    }
+    
+    body .Aplications .Twitter > h1{
+        font-size: 15px;
+    }
+
+    body .Aplications .Instagram > img{
+        width: 30px;
+    }
+    
+    body .Aplications .Instagram > h1{
+        font-size: 15px;
+    }
+
+    body .Aplications .Email > img{
+        width: 30px;
+    }
+    
+    body .Aplications .Email > h1{
+        font-size: 15px;
+    }
+
+    body .Aplications .Behance > img{
+        width: 30px;
+    }
+    
+    body .Aplications .Behance > h1{
+        font-size: 13px;
+    }
+
+    body .Aplications .Contacto > img{
+        width: 30px;
+    }
+    
+    body .Aplications .Contacto > h1{
+        font-size: 15px;
+    }
+
+}
